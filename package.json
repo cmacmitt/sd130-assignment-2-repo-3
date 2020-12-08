@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/maggiedalke/sd130-assignment-2-repo-3#readme",
   "dependencies": {
+    "gulp-concat": "^2.6.1",
     "gulp-minify": "^3.1.0"
   }
 }
