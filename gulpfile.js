@@ -2,6 +2,8 @@ const { src, dest, series, parallel } = require('gulp');
 const del = require('del');
 const jsMinify = require('gulp-minify');
 
+// This task is supposed to clean things
+
 function cleanTask() {
   return del('dist');
 }
@@ -22,6 +24,10 @@ function imagesTask() {
   return src('src/images/**/*').pipe(dest('dist/images'));
 }
 
+exports.default = series(
+  cleanTask,
+  parallel(pagesTask, imagesTask, scriptsTask, stylesTask)
+);
 exports.default = series(
   cleanTask,
   parallel(pagesTask, imagesTask, scriptsTask, stylesTask)
