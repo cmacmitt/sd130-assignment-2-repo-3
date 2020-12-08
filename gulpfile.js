@@ -1,6 +1,8 @@
 const { src, dest, series, parallel } = require('gulp');
 const del = require('del');
 const jsMinify = require('gulp-minify');
+const concat = require('gulp-concat');
+
 
 // This task is supposed to clean things
 
@@ -17,7 +19,9 @@ function scriptsTask() {
 }
 
 function stylesTask() {
-  return src('src/styles/**/*.css').pipe(dest('dist/css'));
+  return src(['src/styles/styles.css', 'src/styles/override.css'])
+  .pipe(concat('styles.css'))
+  .pipe(dest('dist/css/'));
 }
 
 function imagesTask() {
