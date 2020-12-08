@@ -1,0 +1,41 @@
+    1  history
+    2  git clone https://github.com/katbdesrosiers/sd130-assignment-2-repo-3.git
+    3  ls
+    4  cd sd130-assignment-2-repo-3/
+    5  ls
+    6  git status
+    7  git branch
+    8  git checkout issue-3
+    9  git branch issue-3
+   10  git branch
+   11  git checkout issue-3
+   12  l
+   13  cd src
+   14  ls
+   15  cd ../
+   16  code .
+   17  npm i --save-dev imagemin
+   18  npm uninstall imagemin
+   19  npm install --save-dev gulp-imagemin
+   20  gulp default
+   21  git branch
+   22  git checkout main
+   23  git merge
+   24  git merge issue-3 
+   25  git branch
+   26  git checkout issue-3 
+   27  git status
+   28  git add .
+   29  git commit -m "add article content"
+   30  git checkout main
+   31  git merge issue-3 
+   32  git branch -d issue-3 
+   33  git status
+   34  git push
+   35  git pull
+   36  git status
+   37  git push
+   38  history
+   39  touch katherine-history.txt
+   40  ls
+   41  history >> katherine-history.txt 
