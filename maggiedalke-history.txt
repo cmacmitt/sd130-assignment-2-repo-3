@@ -1,0 +1,32 @@
+    1  git clone https://github.com/cmacmitt/sd130-assignment-2-repo-3.git
+    2  ls 
+    3  cd sd130-assignment-2-repo-3/
+    4  npm init
+    5  npm install gulp
+    6  git branch issue-2
+    7  git checkout issue-2 
+    8  .code
+    9  npm install gulp-minify
+   10  git status
+   11  git add .
+   12  git status
+   13  git commit -m "Add clickevent to name button, gulp minify package added."
+   14  git status
+   15  git switch main
+   16  git merge issue-2 
+   17  git pushgit 
+   18  git pull
+   19  code .
+   20  git push
+   21  git status
+   22  git add .
+   23  git commit -m
+   24  git commit -m "merged pull changes with local changes"
+   25  git push
+   26  git branch
+   27  git branch -d issue-2 
+   28  history
+   29  history > history.txt
+   30  git revert 97aa95b8
+   31  git status
+   32  history > maggiedalke-history.txt
